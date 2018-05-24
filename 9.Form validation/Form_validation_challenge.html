@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Validations</title>
+  </head>
+  <body>
+<center><p><h1>Registration Form</h1></p></center>
+    <center><form>
+  User ID:
+  <input type="text" name="username" placeholder="Required and must be length of 5 to 12 characters" size="45">
+  <p></p>
+  User password:
+  <input type="password" name="password" placeholder="Required and must be length of 5 to 12 characters">
+    <p>Name:<input type="text" placeholder="Required and alphabet only"/></p>
+    <p>Address:<input type="text" placeholder="Optional"/></p>
+    <p>Country:
+       <select>
+          <option value="[object Object]">South Africa</option>
+          <option value="[object Object]">Angola</option>
+          <option value="[object Object]">Botswana</option>
+          <option value="[object Object]">Zimbabwe</option>
+
+        </select>
+    <p>Zip code:<input type="text" name="Zip Code" placeholder="Required. Must be numerical" size="30"/></p>
+    <p>E-mail:<input type="email" name="usremail" placeholder="Reqired and valid email address" size="30"/></p>
+    <label for="">sex</label>
+      <input type="radio" name="gender" value="male"> Male
+    <input type="radio" name="gender" value="female"> Female
+  <span style="color:red;font-size:15px">Required</span></p>
+    <p>Language:
+      <input type="checkbox" name="Language"> English <input type="checkbox"/> Other
+  <span style="color:red;font-size:15px">Required</span></p>
+  About:
+<textarea name="about" placeholder="optional" rows="10" cols="30">
+</textarea>
+<input type="submit">
+</form></center>
+  </body>
+</html>
